@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1417158410294.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4A3635D8",
+    "lastKnownWriteTime" : 30962681229869057,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "edu",
+        "contentUrl" : "content?title=edu&file=b557f514ccb34a68a5dbf5ac76726aef.htm",
+        "displayedObservations" : 234,
+        "displayedVariables" : 31,
+        "totalObservations" : 234,
+        "variables" : 31
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

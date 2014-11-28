@@ -1,0 +1,17 @@
+{
+    "contents" : "library(data.table)\nlibrary(dplyr)\nlibrary(microbenchmark)\n\nset.seed(42)\ncount = 1E6\n\ndf_1<-data.frame(k=sample(seq(count),count),one=rnorm(count),two=rnorm(count),three=rnorm(count),four=rnorm(count))\ndf_2<-data.frame(k=sample(seq(count),count),five=rnorm(count),six=rnorm(count),seven=rnorm(count),eight=rnorm(count))\n\ndt_1<-as.data.table(df_1)\ndt_2<-as.data.table(df_2)\n\ndt_native_syntax <- function(){ab<-merge(dt_1,dt_2, by=\"k\")}\ndt_dplyr_syntax <- function() {ab<-inner_join(dt_1,dt_2, by=\"k\")}\ndf_dplyr_syntax <- function() {ab2<-inner_join(df_1,df_2, by=\"k\")}\n\nprint(microbenchmark(data_table_native_syntax=dt_native_syntax(),data_table_dplyr_syntax=dt_dplyr_syntax(),\n               data_frame_dplyr_syntax=df_dplyr_syntax(), times =20))",
+    "created" : 1417164509506.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2373855913",
+    "id" : "827ED924",
+    "lastKnownWriteTime" : 1417168810,
+    "path" : "~/DataScience/GCD/week4questions/test_dplyr_on_datatable.R",
+    "project_path" : "test_dplyr_on_datatable.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : true,
+    "type" : "r_source"
+}

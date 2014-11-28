@@ -1,0 +1,17 @@
+{
+    "contents" : "fileUrl1 =\"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FGDP.csv\"\nfileUrl2 =\"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FEDSTATS_Country.csv\"\n\nif (!file.exists(\"./data\")) {dir.create(\"./data\")}\n\nif (!file.exists(\"./data/GDP.csv\")) {download.file(fileUrl1, \"./data/GDP.csv\")}\nif (!file.exists(\"./data/EDU.csv\")) {download.file(fileUrl2, \"./data/EDU.csv\")}\n\ngdp <- read.csv(\"./data/GDP.csv\", skip=4, nrows=190)\nedu <- read.csv(\"./data/EDU.csv\")\ndata <- inner_join(gdp, edu, by=c(\"X\"=\"CountryCode\"))",
+    "created" : 1417158226813.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2574521820",
+    "id" : "656CA3FE",
+    "lastKnownWriteTime" : 1417162806,
+    "path" : "~/DataScience/GCD/week4questions/match&.R",
+    "project_path" : "match&.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : true,
+    "type" : "r_source"
+}
