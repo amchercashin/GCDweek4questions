@@ -9,10 +9,10 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # Rstudio
-*.Rproj.user
-*.RData
-*.Rhistory
-*.Rproj
+#*.Rproj.user
+#*.RData
+#*.Rhistory
+#*.Rproj
 
 # Windows Installer files
 *.cab
