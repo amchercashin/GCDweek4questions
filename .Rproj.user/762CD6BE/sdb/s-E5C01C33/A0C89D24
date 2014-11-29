@@ -6,11 +6,11 @@
     "folds" : "",
     "hash" : "4039339601",
     "id" : "A0C89D24",
-    "lastKnownWriteTime" : 1417102767,
+    "lastKnownWriteTime" : 1417242701,
     "path" : "~/Учеба/DataScience/Getting and cleaning data/GCDweek4questions/grep.R",
     "project_path" : "grep.R",
     "properties" : {
     },
-    "source_on_save" : false,
+    "source_on_save" : true,
     "type" : "r_source"
 }

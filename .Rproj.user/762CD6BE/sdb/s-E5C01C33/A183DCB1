@@ -1,0 +1,16 @@
+{
+    "contents" : "# Append two more function calls to accomplish the following:\n#\n# 1. Use group_by() (from dplyr) to group the data by part and\n# sex, in that order.\n#\n# 2. Use mutate to add two new columns, whose values will be\n# automatically computed group-by-group:\n#\n#   * total = sum(count)\n#   * prop = count / total\n#\nsat %>%\n  select(-contains(\"total\")) %>%\n  gather(part_sex, count, -score_range) %>%\n  separate(part_sex, c(\"part\", \"sex\")) %>%\n  ### <Your call to group_by()> %>%\n  mutate(###,\n         ###\n  ) %>% print\n",
+    "created" : 1417247032819.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3473464431",
+    "id" : "A183DCB1",
+    "lastKnownWriteTime" : 1417247032,
+    "path" : "C:/Users/ALEXAN~1/AppData/Local/Temp/RtmpM73eLv/script9.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

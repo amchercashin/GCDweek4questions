@@ -1,0 +1,16 @@
+{
+    "contents" : "# Add a call to unique() below, which will remove\n# duplicate rows from student_info.\n#\n# Like with the call to the print() function below,\n# you can omit the parentheses after the function name.\n# This is a nice feature of %>% that applies when\n# there are no additional arguments to specify.\n#\nstudent_info <- students4 %>%\n  select(id, name, sex) %>%\n  unique %>%\n  print\n",
+    "created" : 1417246948104.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1248835217",
+    "id" : "61AC1EE5",
+    "lastKnownWriteTime" : 1417246939,
+    "path" : "C:/Users/ALEXAN~1/AppData/Local/Temp/RtmpM73eLv/script6-correct.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

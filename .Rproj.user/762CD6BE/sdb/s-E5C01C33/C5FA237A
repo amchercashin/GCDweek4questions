@@ -1,0 +1,16 @@
+{
+    "contents" : "# select() the id, class, midterm, and final columns\n# (in that order) and store the result in gradebook.\n#\ngradebook <- students4 %>%\n  select(id, class, midterm, final) %>%\n  print\n",
+    "created" : 1417246982908.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1824366389",
+    "id" : "C5FA237A",
+    "lastKnownWriteTime" : 1417246954,
+    "path" : "C:/Users/ALEXAN~1/AppData/Local/Temp/RtmpM73eLv/script7-correct.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,16 @@
+{
+    "contents" : "skip()# Accomplish the following three goals:\n#\n# 1. select() all columns that do NOT contain the word \"total\",\n# since if we have the male and female data, we can always\n# recreate the total count in a separate column, if we want it.\n# Hint: Use the contains() function, which you'll\n# find detailed in 'Selection' section of ?select.\n#\n# 2. gather() all columns EXCEPT score_range, using\n# key = part_sex and value = count.\n#\n# 3. separate() part_sex into two separate variables (columns),\n# called \"part\" and \"sex\", respectively. You may need to check\n# the 'Examples' section of ?separate to remember how the 'into'\n# argument should be phrased.\n#\nsat %>%\n  select(-contains(###)) %>%\n  gather(###, ###, -###) %>%\n  ### <Your call to separate()> %>%\n  print\n",
+    "created" : 1417247024318.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3822025286",
+    "id" : "31658AA5",
+    "lastKnownWriteTime" : 1417247023,
+    "path" : "C:/Users/ALEXAN~1/AppData/Local/Temp/RtmpM73eLv/script8.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

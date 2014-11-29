@@ -1,0 +1,16 @@
+{
+    "contents" : "library(quantmod)\nlibrary(lubridate)\namzn = getSymbols(\"AMZN\",auto.assign=FALSE)\nsampleTimes = index(amzn) \ntimes2012 <- sampleTimes[year(sampleTimes)==\"2012\"]\nprint(length(times2012))\nprint(sum(wday(times2012, label=T)==\"Mon\"))",
+    "created" : 1417246015787.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3717005498",
+    "id" : "EECF7E9F",
+    "lastKnownWriteTime" : 1417246687,
+    "path" : "~/Учеба/DataScience/Getting and cleaning data/GCDweek4questions/lubridate.R",
+    "project_path" : "lubridate.R",
+    "properties" : {
+    },
+    "source_on_save" : true,
+    "type" : "r_source"
+}

@@ -1,0 +1,16 @@
+{
+    "contents" : "\n# Complete the chained command below so that we are\n# selecting the id, name, and sex column from students4\n# and storing the result in student_info.\n#\nstudent_info <- students4 %>%\n  select(id, name, sex) %>%\n  print\n",
+    "created" : 1417246931666.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3590013412",
+    "id" : "B82D6E8F",
+    "lastKnownWriteTime" : 1417246879,
+    "path" : "C:/Users/ALEXAN~1/AppData/Local/Temp/RtmpM73eLv/script5-correct.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
