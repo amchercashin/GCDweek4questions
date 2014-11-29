@@ -8,6 +8,11 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+# Rstudio
+*.Rproj.user
+*.RData
+*.Rhistory
+
 # Windows Installer files
 *.cab
 *.msi
