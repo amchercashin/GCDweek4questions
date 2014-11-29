@@ -12,6 +12,7 @@ $RECYCLE.BIN/
 *.Rproj.user
 *.RData
 *.Rhistory
+*.Rproj
 
 # Windows Installer files
 *.cab
